@@ -1,0 +1,10 @@
+langgraph
+python-dotenv
+Flask
+flask-cors
+langchain
+langchain-openai
+langsmith
+Markdown
+pydantic
+tavily-python
