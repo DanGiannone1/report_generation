@@ -518,10 +518,10 @@ graph = main_graph_builder.compile()
 # Main Execution
 if __name__ == "__main__":
     async def main():
-        user_input = """write me a report comparing and contrasting semantic kernel and autogen."""
+        user_input = """write me a report comparing and contrasting langgraph vs CrewAI"""
         initial_state = ReportState(
             topic=user_input,
-            report_structure="Features - a detailed comparison of the features of langgraph and autogen. Use Cases - a discussion of the ideal use cases for each tool. Limitations - a comparison of the limitations of each tool. ",
+            report_structure="Features - a detailed comparison of the features of langgraph and crew AI. Use Cases - a discussion of the ideal use cases for each tool. Limitations - a comparison of the limitations of each tool. ",
             sections=[],
             completed_sections=[],
             introduction="",
